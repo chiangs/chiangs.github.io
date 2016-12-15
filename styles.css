@@ -1,12 +1,16 @@
+* {
+    box-sizing: border-box;
+}
 * h1 {
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 * h2, h3, p {
     font-family: 'Quicksand', serif;
 }
 
-/* Footer */
 
+/* Footer */
 footer {
     background-color: #181D22;
     font-family: 'Raleway', sans-serif;
@@ -20,7 +24,7 @@ footer {
 }
 .footer p, a {
     padding: 0px 0px 0px 0px;
-    font-size: 12px;
+    font-size: .9em;
     color: #A8A8A8;
 }
 .footer a:hover {
