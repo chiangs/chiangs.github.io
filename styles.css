@@ -28,9 +28,25 @@ body {
     padding: 0;
 }
 
+.navbar-default .navbar-toggle {
+    background-color: #B7E3E4;
+    border: none;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus  {
+  background-color: #fff;
+}
+
+
+
+.icon-bar {
+    background-color: #F03F35 !important;
+}
+
 #logo img {
     height: 100%;
-    padding:5px 18px;
+    padding: 5px 18px;
     width: auto;
 }
 
