@@ -5,7 +5,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
 }
-* h2, h3, p {
+* h2, h3, p, a{
     font-family: 'Quicksand', serif;
 }
 body {
@@ -13,6 +13,21 @@ body {
 }
 
 /* NavBar */
+.navbar-default {
+    background-color: #3587A4;
+    border: none;
+}
+#logo {
+    color: #fff;
+}
+#myNavbar a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.active a {
+    background-color: #2f7a94 !important;
+    font-style: italic;
+}
 
 
 
