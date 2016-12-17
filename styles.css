@@ -16,7 +16,27 @@ body {
 }
 
 .jumbotron {
-    background-color:transparent !important;
+    background-color: transparent !important;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+    padding: 2px 16px;
+}
+
+.card a {
+    color: #2f7a94;
 }
 
 /* NavBar */
@@ -66,10 +86,20 @@ body {
     font-style: italic;
 }
 
+
 /* About */
+
+.jumbotron h2 {
+    padding: 10px 0;
+}
+
 #main-container img {
-    max-height: 230px;
-    max-width: auto;
+    width: 100%;
+    display: block;
+}
+
+#profile-card {
+    margin: 90px 60px;
 }
 
 /* Footer */
