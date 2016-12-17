@@ -24,8 +24,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" sizes="192x192" href="favicon-192.png">
     <script>
-
-    // A $( document ).ready() block.
+        // A $( document ).ready() block.
         $(document).ready(function() {
             console.log("ready!");
         });
@@ -34,42 +33,47 @@
 
 <body>
 
-<!--Begin Navbar-->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <!--Begin Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" id="logo" href="contact.html"><img src="navbar-brand.png" alt="the Ostmotic Mind"></a>
+                <a class="navbar-brand" id="logo" href="contact.html"><img src="navbar-brand.png" alt="the Ostmotic Mind"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">home</a></li>
+                    <li class="active"><a href="about.html">about Stephen</a></li>
+                    <li><a href="articles.html">articles</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">home</a></li>
-                <li class="active"><a href="about.html">about Stephen</a></li>
-                <li><a href="blog.html">blog</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!--Begin Content-->
+    </nav>
+    <!--Begin Content-->
 
-<div class="container" id="main-container">
-    <div class="card card-block">
-        <h1>Hello World</h1>
-        <h2>Test</h2>
-        <h3>Test</h3>
-        <p>Test</p>
-    </div>
+    <div class="container-fluid" id="main-container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="jumbotron" id="about-jumbo">
+                    <h1>Hi, I'm Stephen Chiang</h1>
+                    <h2>A future full stack java web developer.</h2>
+                    <p>I believe in building meaningful relationships and networks, creative solutions, and designing with empathy. I want to build tailored mobile and web solutions for organizations trying to make a difference in the world.</p>
+                    <p>I have practical experience with NGOs and governments in planning and executing humanitarian operations in South East and South Asia regions.</p>
+                </div>
+            </div>
+            <div class="col-md-2">
+                 <a href="www://dk.linkedin.com/in/chiangs"><img src="profile.png" alt="LinkedIn Profile - Stephen Chiang"></a>
+            </div>
 
-</div>
 
-    <!-- jQuery first, then Bootstrap JS. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <!-- jQuery first, then Bootstrap JS. -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 <!-- Footer -->

@@ -15,6 +15,9 @@ body {
     padding: 70px 0 0 0;
 }
 
+.jumbotron {
+    background-color:transparent !important;
+}
 
 /* NavBar */
 
@@ -54,6 +57,7 @@ body {
 #myNavbar a {
     color: #F03F35;
     text-transform: uppercase;
+    margin: 0 0 0 8px;
 }
 
 .active a {
@@ -62,6 +66,11 @@ body {
     font-style: italic;
 }
 
+/* About */
+#main-container img {
+    max-height: 230px;
+    max-width: auto;
+}
 
 /* Footer */
 
