@@ -45,6 +45,7 @@ body {
 
 
 /* NavBar */
+
 .navbar-default {
     background-color: #B7E3E4;
     border: none;
@@ -111,17 +112,32 @@ body {
     max-width: 300px;
 }
 
+
 /* Articles /*
 
 
 /* Contact */
+
 #contact-container {
-    background-image: url("railroad.jpg");
-    background-size:cover;
+    background: url("railroad.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
     color: #fff;
+}
+
+.overlay {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+    color: white;
 }
 
 .contact-content {
@@ -131,7 +147,10 @@ body {
 
 .contact-content a {
     color: #fff;
-    line-height: 3em;
+}
+
+.contact-content ul {
+    padding: 20px 0 40px 0;
 }
 
 
@@ -147,6 +166,7 @@ footer {
     /* Set the fixed height of the footer here */
     height: 30px;
     padding: 5px;
+    z-index: 1;
 }
 
 .footer p, a {
