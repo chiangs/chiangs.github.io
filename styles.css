@@ -12,7 +12,7 @@
 }
 
 body {
-    padding: 70px 0 0 0;
+    padding: 50px 0 0 0;
 }
 
 .jumbotron {
@@ -21,16 +21,20 @@ body {
 
 .card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     transition: 0.3s;
 }
 
+
 /* On mouse-over, add a deeper shadow */
+
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 
+
 /* Add some padding inside the card container */
+
 .card-container {
     padding: 2px 16px;
 }
@@ -39,8 +43,8 @@ body {
     color: #2f7a94;
 }
 
-/* NavBar */
 
+/* NavBar */
 .navbar-default {
     background-color: #B7E3E4;
     border: none;
@@ -106,6 +110,30 @@ body {
     margin: 100px 120px 100px 0px;
     max-width: 300px;
 }
+
+/* Articles /*
+
+
+/* Contact */
+#contact-container {
+    background-image: url("railroad.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    color: #fff;
+}
+
+.contact-content {
+    text-align: center;
+    padding: 200px 0;
+}
+
+.contact-content a {
+    color: #fff;
+    line-height: 3em;
+}
+
 
 /* Footer */
 
