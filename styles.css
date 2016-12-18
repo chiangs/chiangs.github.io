@@ -144,6 +144,8 @@ blockquote p {
   display: inline;
 }
 
+/* Card group styles */
+
 .recent {
     text-align: center;
     padding: 10px 0;
@@ -157,6 +159,12 @@ blockquote p {
 
 .blog-cards {
     padding: 15px;
+}
+
+.blog-cards #blog-id {
+    font-size: 5em;
+    color: #5b6a6d;
+    text-align: center;
 }
 
 /* About */
