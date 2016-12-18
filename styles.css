@@ -144,9 +144,8 @@ blockquote p {
   display: inline;
 }
 
-#card-grid {
-    width: 1000px;
-    margin: 0 auto;
+.blog-cards {
+    padding: 60px 0 12px 0;
 }
 
 /* About */
