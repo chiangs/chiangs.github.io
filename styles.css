@@ -153,6 +153,9 @@ body {
     line-height: 3em;
 }
 
+#social-list {
+    margin: 0;
+}
 
 /* Footer */
 
