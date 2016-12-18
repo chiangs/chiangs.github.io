@@ -91,6 +91,22 @@ body {
     font-style: italic;
 }
 
+/* Index */
+
+#index-content h1 {
+    font-size: 21vw;
+}
+
+#index-content h2 {
+    font-weight: bold;
+    color: #676767;
+}
+
+#index-content .standout {
+    font-weight: bold;
+    font-style: italic;
+    background-color: #faff01
+}
 
 /* About */
 
@@ -171,7 +187,7 @@ footer {
     padding: 5px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 300px) {
     footer {
         height: 50px;
         padding: 5px;
@@ -179,7 +195,7 @@ footer {
 }
 
 .footer p, a {
-    font-size: .95em;
+    font-size: calc(.5em + .5vw);
     color: #A8A8A8;
 }
 
