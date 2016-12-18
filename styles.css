@@ -168,6 +168,13 @@ footer {
     padding: 5px;
 }
 
+@media only screen and (max-width: 400px) {
+    footer {
+        height: 50px;
+        padding: 5px;
+    }
+}
+
 .footer p, a {
     font-size: .95em;
     color: #A8A8A8;

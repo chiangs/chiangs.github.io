@@ -24,8 +24,7 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" sizes="192x192" href="favicon-192.png">
     <script>
-
-    // A $( document ).ready() block.
+        // A $( document ).ready() block.
         $(document).ready(function() {
             console.log("ready!");
         });
@@ -34,30 +33,30 @@
 
 <body>
 
-<!--Begin Navbar-->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <!--Begin Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" id="logo" href="contact.html"><img src="navbar-brand.png" alt="the Osmotic Mind"></a>
+                <a class="navbar-brand" id="logo" href="contact.html"><img src="navbar-brand.png" alt="the Osmotic Mind"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">home</a></li>
+                    <li><a href="about.html">about Stephen</a></li>
+                    <li><a href="articles.html">articles</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="index.html">home</a></li>
-                <li><a href="about.html">about Stephen</a></li>
-                <li><a href="articles.html">articles</a></li>
-                <li><a href="contact.html">contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<!--Begin Content-->
+    </nav>
+    <!--Begin Content-->
 
-<div class="container" id="main-container">
+    <div class="container" id="main-container">
 
         <h1>Hello World</h1>
         <h2>Test</h2>
@@ -65,7 +64,7 @@
         <p>Test</p>
     </div>
 
-</div>
+    </div>
 
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -76,7 +75,7 @@
 <footer>
     <div class="footer">
         <div class="container-fluid ">
-            <p>Coded and designed by <a style="color: #1e88cb" href="mailto:stephen.e.chiang@gmail.com">Stephen Chiang </a>&copy; 2016 &ensp;|&ensp;
+            <p>Coded and designed by <a style="color: #1e88cb" href="mailto:stephen.e.chiang@gmail.com">Stephen Chiang </a>&copy;&nbsp;2016&ensp;|&ensp;
                 <a target="_blank" href="https://www.linkedin.com/in/chiangs"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 <a target="_blank" href="https://500px.com/chiangs"><i class="fa fa-500px" aria-hidden="true"></i></a>
                 <a target="_blank" href="https://github.com/chiangs"><i class="fa fa-github" aria-hidden="true"></i></a>
@@ -84,5 +83,4 @@
         </div>
     </div>
 </footer>
-
 </html>
