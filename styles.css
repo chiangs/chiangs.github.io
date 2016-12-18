@@ -7,7 +7,7 @@
     font-weight: bold;
 }
 
-* h2, h3, p, a, blockquote {
+* h2, h3, h4, p, a, blockquote {
     font-family: 'Quicksand', serif;
 }
 
@@ -144,8 +144,19 @@ blockquote p {
   display: inline;
 }
 
+.recent {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.recent #next {
+  font-size: 2em;
+  color: #5b6a6d;
+  vertical-align:text-top;
+}
+
 .blog-cards {
-    padding: 60px 0 12px 0;
+    padding: 15px;
 }
 
 /* About */
