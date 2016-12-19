@@ -208,6 +208,10 @@ blockquote p {
     text-align: center;
 }
 
+.well p {
+    line-height: 150%;
+}
+
 .blog-nav {
     text-align: center;
     padding-top: 20px;
