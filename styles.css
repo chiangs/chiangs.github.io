@@ -233,6 +233,10 @@ blockquote p {
     padding: 100px 0;
 }
 
+.contact-content h1 {
+    font-size: 4vw;
+}
+
 .contact-content a {
     color: #fff;
 }
