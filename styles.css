@@ -192,6 +192,7 @@ blockquote p {
     max-width: 300px;
 }
 
+
 /* Articles */
 
 #main-container .articles-title {
@@ -212,10 +213,12 @@ blockquote p {
     line-height: 150%;
 }
 
-.blog-nav {
+.nav-pills {
     text-align: center;
     padding-top: 20px;
 }
+
+
 
 /* Contact */
 
