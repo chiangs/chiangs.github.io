@@ -192,12 +192,13 @@ blockquote p {
 
 /* Articles */
 
-#main-container h1 {
+#main-container .articles-title {
     font-size: 5vw;
     text-align: center;
 }
 .well {
     margin: 20px 0;
+    background: rgba(247, 247, 247, 0.8);
 }
 
 /* Contact */
