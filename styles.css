@@ -146,6 +146,7 @@ blockquote p {
     display: inline;
 }
 
+
 /* Card group styles */
 
 .recent {
@@ -169,6 +170,7 @@ blockquote p {
     color: #5b6a6d;
     text-align: center;
 }
+
 
 /* About */
 
@@ -196,9 +198,14 @@ blockquote p {
     font-size: 5vw;
     text-align: center;
 }
+
 .well {
-    margin: 20px 0;
     background: rgba(247, 247, 247, 0.8);
+    margin: 20px 0;
+}
+
+.well h2 {
+    text-align: center;
 }
 
 /* Contact */
