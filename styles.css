@@ -91,6 +91,7 @@ body {
     font-style: italic;
 }
 
+
 /* Index */
 
 .title-top {
@@ -125,24 +126,26 @@ body {
 }
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #b7e3e4;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+    background: #f9f9f9;
+    border-left: 10px solid #b7e3e4;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
 }
 
 blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 5.5em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+    color: #ccc;
+    content: open-quote;
+    font-size: 5.5em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
 }
+
 blockquote p {
-  display: inline;
+    display: inline;
 }
+
 
 /* Card group styles */
 
@@ -152,9 +155,10 @@ blockquote p {
 }
 
 .recent #next {
-  font-size: 2em;
-  color: #5b6a6d;
-  vertical-align:text-top;
+    height: 30px;
+    width: auto;
+    display: inline-block;
+    vertical-align: text-bottom;
 }
 
 .blog-cards {
@@ -166,6 +170,7 @@ blockquote p {
     color: #5b6a6d;
     text-align: center;
 }
+
 
 /* About */
 
@@ -187,9 +192,6 @@ blockquote p {
     max-width: 300px;
 }
 
-.card #about-card-icon {
-    text-align: right;
-}
 
 /* Articles /*
 
@@ -234,6 +236,7 @@ blockquote p {
 #social-list {
     margin: 0;
 }
+
 
 /* Footer */
 
