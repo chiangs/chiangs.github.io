@@ -216,6 +216,7 @@ blockquote p {
 .nav-pills {
     text-align: center;
     padding-top: 20px;
+    position: fixed;
 }
 
 
@@ -269,7 +270,7 @@ blockquote p {
 /* Footer */
 
 footer {
-    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.9);
     font-family: 'Raleway', sans-serif;
     text-align: center;
     position: fixed;
@@ -288,7 +289,7 @@ footer {
 }
 
 .footer p, a {
-    font-size: calc(.5em + .5vw);
+    font-size: calc(.7em + .2vw);
     color: #A8A8A8;
 }
 
