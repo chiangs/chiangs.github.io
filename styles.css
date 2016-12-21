@@ -218,6 +218,7 @@ blockquote p {
     text-align: center;
     padding-top: 20px;
     background-color: rgba(254, 254, 254, 0.9);
+    position: fixed;
     z-index: 1;
 }
 
