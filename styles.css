@@ -203,6 +203,7 @@ blockquote p {
 .well {
     background: rgba(247, 247, 247, 0.8);
     margin: 20px 0;
+    z-index: 0;
 }
 
 .well h2 {
@@ -216,9 +217,15 @@ blockquote p {
 .nav-pills {
     text-align: center;
     padding-top: 20px;
-    position: fixed;
+    background-color: rgba(254, 254, 254, 0.9);
+    z-index: 1;
 }
 
+@media only screen and (min-width: 500px) {
+    .nav-pills {
+        position: fixed;
+    }
+}
 
 
 /* Contact */
@@ -281,13 +288,6 @@ footer {
     padding: 5px;
 }
 
-@media only screen and (max-width: 300px) {
-    footer {
-        height: 50px;
-        padding: 5px;
-    }
-}
-
 .footer p, a {
     font-size: calc(.7em + .2vw);
     color: #A8A8A8;
@@ -295,4 +295,11 @@ footer {
 
 .footer a:hover {
     color: #2f7a94;
+}
+
+@media only screen and (max-width: 300px) {
+    footer {
+        height: 50px;
+        padding: 5px;
+    }
 }
