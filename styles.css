@@ -221,12 +221,13 @@ blockquote p {
     z-index: 1;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 1000px) {
     .nav-pills {
         position: fixed;
+        top: 40px;
+        right: 5px;
     }
 }
-
 
 /* Contact */
 
