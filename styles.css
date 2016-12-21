@@ -217,7 +217,7 @@ blockquote p {
 .nav-pills {
     text-align: center;
     padding-top: 20px;
-    background-color: rgba(254, 254, 254, 0.9);
+    background-color: rgba(254, 254, 254, 0.85);
     position: fixed;
     z-index: 1;
 }
@@ -279,7 +279,7 @@ blockquote p {
 /* Footer */
 
 footer {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.85);
     font-family: 'Raleway', sans-serif;
     text-align: center;
     position: fixed;
@@ -288,6 +288,7 @@ footer {
     /* Set the fixed height of the footer here */
     height: 30px;
     padding: 5px;
+    z-index: 10;
 }
 
 .footer p, a {
