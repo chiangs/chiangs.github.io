@@ -169,7 +169,11 @@ blockquote p {
     padding: 15px;
 }
 
-.blog-cards #blog-id {
+.thumbnail {
+    min-height: 300px;
+}
+
+.blog-cards .blog-id {
     font-size: 5em;
     color: #5b6a6d;
     text-align: center;
