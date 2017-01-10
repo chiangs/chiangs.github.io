@@ -115,20 +115,60 @@
                     <h4>09.01.17</h4>
                     <p>Both IF/ELSE and SWITCH are ways to compare variables. But which should you use and when?</p>
                     <p>Do you have multiple conditions and need to check through many logical decisions? IF/ELSE is the way to go. It allows you to quickly compare conditions that depend on user input.</p>
-                    <p>Do you have a single variable you are switching from that makes it easy to jump directly to the right value? SWITCH is the construct you are looking for. SWITCH can be optimised by the compiler so you get 'faster' code depending on how long the list of checks are.</p>
-                    <p>In essence, a SWITCH is really saying "pick one of these based on this variable's VALUE", but an IF/ELSE statement is a series of boolean checks of TRUE/FALSE and states that this portion of code depends on a number of possible variables rather than a single one.</p>
+                    <p>Do you have a single variable you are switching from that makes it easy to jump directly to the right value? SWITCH is the construct you are looking for. SWITCH can be optimised by the compiler so you get 'faster' code depending on
+                        how long the list of checks are.</p>
+                    <p>In essence, a SWITCH is really saying "pick one of these based on this variable's VALUE", but an IF/ELSE statement is a series of boolean checks of TRUE/FALSE and states that this portion of code depends on a number of possible variables
+                        rather than a single one.</p>
                 </div>
                 <div class="well" id="post-2">
-                    <h2>&#x278B; Post title</h2>
-                    <h4>YY.MM.DD</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2>&#x278B; What is 'Math'? A '.random()' question.</h2>
+                    <h4>17.01.10</h4>
+                    <p>What is ‘Math’? What is the return type of the ‘.random()’ method. Why is the ‘M’ in ‘Math’ capitalized (you may need to investigate Static classes...hint hint). </p>
                 </div>
                 <div class="well" id="post-3">
-                    <h2>&#x278C; Post title</h2>
-                    <h4>YY.MM.DD</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <h2>&#x278C; What kind of sorcery is this? 'Casting' a DOUBLE to an INT.</h2>
+                    <h4>17.01.11</h4>
+                    <p>A DOUBLE and INT are both arithmetic variables, but different data types. An INT is more exact, as it requires the variable to be a whole number (e.g., 1, 24, 73, 99, etc.). An INT is a variable with decimals, or fraction, to denote
+                        a floating number (e.g., 1.2, 6.0., 99.999, etc.). They are also different in terms of number of bits used to store the variable's value.</p>
+                    <p>When using a DOUBLE and INT together in Java, and many similar languages, it is often more convenient to use DOUBLES on calculations because of their flexibility or precision. However, sometimes after the computations are done, one
+                        might wish to simplify the result for the rest of the process. To do this, you cast the DOUBLE to an INT, simplifying the decimal number to a whole number.</p>
+                    <div class="well">
+                        <p>In Java, there are several ways to do this:</p>
+                        <p>Explicit Cast - (int) doubleValue; this will remove the decimal value of the double and keep the whole number but without rounding. In the example below, the .7 just drops resulting with INT value of 24.</p>
+                        <pre>
+public class DoubleToInt {
+    public static void main(String[] args) {
+        double doubleValue = 24.7;
+        int intValue = (int) doubleValue;
+        System.out.println("The int value is: " + intValue);
+    }
+}</pre>
+                        <p>Cast with Rounding - Math.round(doubleValue); Math.round accepts a double value to round it to the next whole number. Then we can cast it to an integer, resulting in an INT rounded up. In the example below, the result is an INT
+                            of 25.</p>
+                        <pre>
+public class DoubleToIntRound {
+    public static void main(String[] args) {
+        double doubleValue = 24.7;
+        long longValue = Math.round(doubleValue);
+        int intValue = (int) longValue;
+        System.out.println("The int value is: " + intValue);
+   }
+}</pre>
+                        <p>Casting with - Double.intValue(); if the DOUBLE is an object of class 'Double', Double.intValue() can be used. In the example below, the result is an INT of 24.</p>
+                        <pre>
+public class DoubleToInt {
+    public static void main(String[] args) {
+        Double doubleObject = 24.7;
+        int intValue = doubleObject.intValue();
+        System.out.println("The int value is: " + intValue);
+   }
+}
+</pre>
+
+
+                    </div>
+
+
                 </div>
                 <div class="well" id="post-4">
                     <h2>&#x278D; Post title</h2>
@@ -180,4 +220,5 @@
         </div>
     </div>
 </footer>
+
 </html>
