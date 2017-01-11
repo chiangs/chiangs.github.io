@@ -210,11 +210,13 @@ blockquote p {
 .well {
     background: rgba(247, 247, 247, 0.8);
     margin: 20px 0;
+    padding-top: 50px;
     z-index: 0;
 }
 
 .well h2 {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .well p {
