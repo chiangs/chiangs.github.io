@@ -70,10 +70,10 @@
             <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="articles.html#post-5">YY.MM.DD-Post5</a></li>
-                                <li><a href="articles.html#post-4">YY.MM.DD-Post4</a></li>
-                                <li><a href="articles.html#post-3">YY.MM.DD-Post3</a></li>
-                                <li><a href="articles.html#post-2">YY.MM.DD-Post2</a></li>
-                                <li><a href="articles.html#post-1">YY.MM.DD-Post1</a></li>
+                                <li><a href="articles.html#post-4">12.JAN.17-Post4</a></li>
+                                <li><a href="articles.html#post-3">11.JAN.17-Post3</a></li>
+                                <li><a href="articles.html#post-2">10.JAN.17-Post2</a></li>
+                                <li><a href="articles.html#post-1">09.JAN.17-Post1</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -98,7 +98,7 @@
             <div class="col-xs-12 col-md-10" id="blog-pane">
                 <div class="well" id="post-1">
                     <h2>&#x278A; When to SWITCH and when to IF/ELSE.</h2>
-                    <h4>09.01.17</h4>
+                    <h4>09.JAN.17</h4>
                     <p>Both IF/ELSE and SWITCH are ways to compare variables. But which should you use and when?</p>
                     <p>Do you have multiple conditions and need to check through many logical decisions? IF/ELSE is the way to go. It allows you to quickly compare conditions that depend on user input.</p>
                     <p>Do you have a single variable you are switching from that makes it easy to jump directly to the right value? SWITCH is the construct you are looking for. SWITCH can be optimised by the compiler so you get 'faster' code depending on
@@ -108,12 +108,30 @@
                 </div>
                 <div class="well" id="post-2">
                     <h2>&#x278B; What is 'Math'? A '.random()' question.</h2>
-                    <h4>17.01.10</h4>
-                    <p>What is ‘Math’? What is the return type of the ‘.random()’ method. Why is the ‘M’ in ‘Math’ capitalized (you may need to investigate Static classes...hint hint). </p>
+                    <h4>10.JAN.17</h4>
+                    <p>In Java, 'Math' is a class of methods for performing basic numeric operations. 'Math', is capitalized because it is a static class of basic numeric functions for computation of primitives within the 'java.lang' package; it's static because there are no stand-alone functions in Java, so they all need to be a member of a class, and in many cases do not require it to be applied to an object.</p>
+                    <p>When you append '.random()' to the Math class, it returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0. The result is random and can be used to add some random variability in methods when needed (e.g., a basic game of Rock, Paper, Scissors.).</p>
+<pre>
+public class RockPaperScissors {
+    public static void main(String[] args) {
+
+        rps = Math.random();
+        if ( rps < 0.333333 ) { //will be true 1/3 of the time
+        System.out.println( "Rock" );
+        }
+        else if ( rps < 0.6666667 ) {
+        System.out.println( "Paper" );
+        }
+        else {
+        System.out.println( "Scissors" );
+        }
+    }
+}
+</pre>
                 </div>
                 <div class="well" id="post-3">
                     <h2>&#x278C; What kind of sorcery is this? 'Casting' a DOUBLE to an INT.</h2>
-                    <h4>17.01.11</h4>
+                    <h4>11.01.17</h4>
                     <p>A DOUBLE and INT are both arithmetic variables, but different data types. An INT is more exact, as it requires the variable to be a whole number (e.g., 1, 24, 73, 99, etc.). An INT is a variable with decimals, or fraction, to denote
                         a floating number (e.g., 1.2, 6.0., 99.999, etc.). They are also different in terms of number of bits used to store the variable's value.</p>
                     <p>When using a DOUBLE and INT together in Java, and many similar languages, it is often more convenient to use DOUBLES on calculations because of their flexibility or precision. However, sometimes after the computations are done, one
@@ -157,8 +175,8 @@ public class DoubleToInt {
 
                 </div>
                 <div class="well" id="post-4">
-                    <h2>&#x278D; Post title</h2>
-                    <h4>YY.MM.DD</h4>
+                    <h2>&#x278D; What is the difference between a ‘for’, ‘while’ and ‘do while’ loop?</h2>
+                    <h4>12.JAN.12</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
