@@ -28,7 +28,7 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
 
     <script>
-    // A $( document ).ready() block.
+        // A $( document ).ready() block.
         $(document).ready(function() {
             console.log("ready!");
         });
@@ -113,9 +113,11 @@
                 <div class="well" id="post-2">
                     <h2>&#x278B; What is 'Math'? A '.random()' question.</h2>
                     <h4>10.JAN.17</h4>
-                    <p>In Java, 'Math' is a class of methods for performing basic numeric operations. 'Math', is capitalized because it is a static class of basic numeric functions for computation of primitives within the 'java.lang' package; it's static because there are no stand-alone functions in Java, so they all need to be a member of a class, and in many cases do not require it to be applied to an object.</p>
-                    <p>When you append '.random()' to the Math class, it returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0. The result is random and can be used to add some random variability in methods when needed (e.g., a basic game of Rock, Paper, Scissors.).</p>
-<pre>
+                    <p>In Java, 'Math' is a class of methods for performing basic numeric operations. 'Math', is capitalized because it is a static class of basic numeric functions for computation of primitives within the 'java.lang' package; it's static
+                        because there are no stand-alone functions in Java, so they all need to be a member of a class, and in many cases do not require it to be applied to an object.</p>
+                    <p>When you append '.random()' to the Math class, it returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0. The result is random and can be used to add some random variability in methods when needed
+                        (e.g., a basic game of Rock, Paper, Scissors.).</p>
+                    <pre>
 public class RockPaperScissors {
     public static void main(String[] args) {
 
@@ -181,11 +183,34 @@ public class DoubleToInt {
                 <div class="well" id="post-4">
                     <h2>&#x278D; What is the difference between a ‘for’, ‘while’ and ‘do while’ loop?</h2>
                     <h4>12.JAN.12</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Loops in Java, and many similar programming languages, are a set of decision-making statements. They check a statement, or a group of them, and execute the body of the loop while the condition is true. There are three types of loops:
+                        <ol>
+                            <li>For loops</li>
+                            <li>While loops</li>
+                            <li>Do While loops</li>
+                        </ol>
+                    </p>
+                    <p>Each loop type differs in small but important ways. A 'for' loop iterates over a finite range of values until a particular condition is satisfied. It first checks the condition and if true, enters the loop until condition is no longer
+                        true. This is the most common type of loop when you have a list of items that you need to 'iterate' over for processing.
+                        <br>
+                        <br>The 'while' loop is sometimes called a “pre-test” loop because it checks the condition first, while the 'do-while' is called a “post-test” loop because it checks the condition after running the body of the loop at least once.
+                        These two loops are great when you don't want to repeat code a number of times, rather, keep looping through the code until a certain condition is met (or in other words, keep looping while the condition is true). It looks like
+                        this:
+                        <ol>
+                            <li>Check the 'while' loop condition, if false, don’t execute any code inside the block.</li>
+                            <li>If condition is true, execute code inside 'while' block</li>
+                            <li>Repeat step 1.</li>
+                        </ol>
+                        <p>So why bother to make a do-while loop function when most often a 'while' loop is all that's required? Sometimes you need a 'do while' because what is being checked in the condition is something you don’t really know until you have gone through the body of the loop at least once.
+                        <ol>
+                            <li>Executes the code in loop.</li>
+                            <li>Checks the condition, if true, continues to execute the loop.</li>
+                            <li>If false, exits the loop.</li>
+                        </ol></p>
+                    </p>
                 </div>
                 <div class="well" id="post-5">
-                    <h2>&#x278E; Post title</h2>
+                    <h2>&#x278E; The 'void'</h2>
                     <h4>YY.MM.DD</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
