@@ -214,14 +214,25 @@ public class DoubleToInt {
                 <div class="well" id="post-5">
                     <h2>&#x278E; Explaining the 'void'</h2>
                     <h4>23.JAN.17</h4>
-                    <p>Java programmers are very familiar with the main method, but it's common to forget what it really means. Here's what it looks like</p>
-<pre>
+                    <p>Java programmers are very familiar with the main method, but it's common to forget what it really means. Here's what it looks like:</p>
+                    <pre>
     public class SomeName {
         public static void main(String args) {
 
         }
     }
 </pre>
+                    <p>
+                        <br>In a nutshell, the main method 'signature' can probably be thought of as providing all the information there is about the interface to the method; it provides all the information that you need to know to be able to invoke the
+                        method.
+                        <br>
+                        <ul>
+                            <li>Main is 'public' so that its visible to every other class, even to which are not part of its package.</li>
+                            <li>Main is 'static' in Java so that it is indicated as a class method, so that it can be called without creating any instance.</li>
+                            <li>Main is 'void' because the method itself doesn't return any value, but the return type must be indicated even if 'nothing'.</li>
+                        </ul>
+                    </p>
+                    <p>And now, we know!</p>
                 </div>
             </div>
             <!-- /blog-nav -->
