@@ -11,5 +11,5 @@ This is an ongoing project that will continue to develop. It's purpose it to sho
 2. Click on the link above next to **Portfolio Project**.
 
 ## Getting in touch with me:
-* [LinkedIn](http:www.LinkedIn.com/chiangs target="_blank")
+* [LinkedIn](http:www.LinkedIn.com/chiangs)
 * [Email](mailto:stephen.e.chiang@gmail.com)
