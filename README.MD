@@ -2,8 +2,8 @@
 This is an ongoing project that will continue to develop. It's purpose it to showcase the growth and learning I've achieved while going through Skill Distillery's Full Stack Java Web Programming Bootcamp and beyond.
 
 ## In This Repository:
-1. .html files
-2. .css files
+1. <&nbsp;> HTML files
+2. {&nbsp;&nbsp;} CSS files
 3. Image / icon files, all original and copyrighted to Stephen E. Chiang
 
 ## How to view site:
@@ -12,4 +12,4 @@ This is an ongoing project that will continue to develop. It's purpose it to sho
 
 ## Getting in touch with me:
 * [LinkedIn](http:www.LinkedIn.com/chiangs)
-* [E-mail: stephen.e.chiang@gmail.com](mailto:stephen.e.chiang@gmail.com)
+* [Email](mailto:stephen.e.chiang@gmail.com)
