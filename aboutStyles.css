@@ -1,0 +1,17 @@
+.jumbotron h2 {
+    padding: 18px 0;
+}
+
+.jumbotron p {
+    line-height: 1.5em;
+}
+
+#main-container img {
+    width: 100%;
+    display: block;
+}
+
+#profile-card {
+    margin: 100px 120px 100px 0px;
+    max-width: 300px;
+}
